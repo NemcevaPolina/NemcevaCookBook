@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FDDB20727B39B13004210C1 /* NemCookBook WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3FDDB20627B39B13004210C1 /* NemCookBook WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3FDDB20D27B39B13004210C1 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDB20B27B39B13004210C1 /* Interface.storyboard */; };
+		3FDDB20F27B39B14004210C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDB20E27B39B14004210C1 /* Assets.xcassets */; };
+		3FDDB21527B39B14004210C1 /* NemCookBook WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3FDDB21427B39B14004210C1 /* NemCookBook WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3FDDB21A27B39B14004210C1 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDB21927B39B14004210C1 /* InterfaceController.swift */; };
+		3FDDB21C27B39B14004210C1 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDB21B27B39B14004210C1 /* ExtensionDelegate.swift */; };
+		3FDDB21E27B39B14004210C1 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDB21D27B39B14004210C1 /* ComplicationController.swift */; };
+		3FDDB22027B39B15004210C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDB21F27B39B15004210C1 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FDDB20827B39B13004210C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FDDB1FC27B39B12004210C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FDDB20527B39B13004210C1;
+			remoteInfo = "NemCookBook WatchKit App";
+		};
+		3FDDB21627B39B14004210C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FDDB1FC27B39B12004210C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FDDB21327B39B14004210C1;
+			remoteInfo = "NemCookBook WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3FDDB22727B39B15004210C1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3FDDB21527B39B14004210C1 /* NemCookBook WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDDB22B27B39B15004210C1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3FDDB20727B39B13004210C1 /* NemCookBook WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3FDDB20227B39B12004210C1 /* NemCookBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NemCookBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FDDB20627B39B13004210C1 /* NemCookBook WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NemCookBook WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FDDB20C27B39B13004210C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3FDDB20E27B39B14004210C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FDDB21427B39B14004210C1 /* NemCookBook WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "NemCookBook WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FDDB21927B39B14004210C1 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		3FDDB21B27B39B14004210C1 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		3FDDB21D27B39B14004210C1 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		3FDDB21F27B39B15004210C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FDDB22127B39B15004210C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FDDB21127B39B14004210C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FDDB1FB27B39B12004210C1 = {
+			isa = PBXGroup;
+			children = (
+				3FDDB20A27B39B13004210C1 /* NemCookBook WatchKit App */,
+				3FDDB21827B39B14004210C1 /* NemCookBook WatchKit Extension */,
+				3FDDB20327B39B12004210C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FDDB20327B39B12004210C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FDDB20227B39B12004210C1 /* NemCookBook.app */,
+				3FDDB20627B39B13004210C1 /* NemCookBook WatchKit App.app */,
+				3FDDB21427B39B14004210C1 /* NemCookBook WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FDDB20A27B39B13004210C1 /* NemCookBook WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3FDDB20B27B39B13004210C1 /* Interface.storyboard */,
+				3FDDB20E27B39B14004210C1 /* Assets.xcassets */,
+			);
+			path = "NemCookBook WatchKit App";
+			sourceTree = "<group>";
+		};
+		3FDDB21827B39B14004210C1 /* NemCookBook WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3FDDB21927B39B14004210C1 /* InterfaceController.swift */,
+				3FDDB21B27B39B14004210C1 /* ExtensionDelegate.swift */,
+				3FDDB21D27B39B14004210C1 /* ComplicationController.swift */,
+				3FDDB21F27B39B15004210C1 /* Assets.xcassets */,
+				3FDDB22127B39B15004210C1 /* Info.plist */,
+			);
+			path = "NemCookBook WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FDDB20127B39B12004210C1 /* NemCookBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FDDB22C27B39B15004210C1 /* Build configuration list for PBXNativeTarget "NemCookBook" */;
+			buildPhases = (
+				3FDDB20027B39B12004210C1 /* Resources */,
+				3FDDB22B27B39B15004210C1 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FDDB20927B39B13004210C1 /* PBXTargetDependency */,
+			);
+			name = NemCookBook;
+			productName = NemCookBook;
+			productReference = 3FDDB20227B39B12004210C1 /* NemCookBook.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		3FDDB20527B39B13004210C1 /* NemCookBook WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FDDB22827B39B15004210C1 /* Build configuration list for PBXNativeTarget "NemCookBook WatchKit App" */;
+			buildPhases = (
+				3FDDB20427B39B13004210C1 /* Resources */,
+				3FDDB22727B39B15004210C1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FDDB21727B39B14004210C1 /* PBXTargetDependency */,
+			);
+			name = "NemCookBook WatchKit App";
+			productName = "NemCookBook WatchKit App";
+			productReference = 3FDDB20627B39B13004210C1 /* NemCookBook WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3FDDB21327B39B14004210C1 /* NemCookBook WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FDDB22427B39B15004210C1 /* Build configuration list for PBXNativeTarget "NemCookBook WatchKit Extension" */;
+			buildPhases = (
+				3FDDB21027B39B14004210C1 /* Sources */,
+				3FDDB21127B39B14004210C1 /* Frameworks */,
+				3FDDB21227B39B14004210C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NemCookBook WatchKit Extension";
+			productName = "NemCookBook WatchKit Extension";
+			productReference = 3FDDB21427B39B14004210C1 /* NemCookBook WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FDDB1FC27B39B12004210C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					3FDDB20127B39B12004210C1 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					3FDDB20527B39B13004210C1 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					3FDDB21327B39B14004210C1 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 3FDDB1FF27B39B12004210C1 /* Build configuration list for PBXProject "NemCookBook" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FDDB1FB27B39B12004210C1;
+			productRefGroup = 3FDDB20327B39B12004210C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FDDB20127B39B12004210C1 /* NemCookBook */,
+				3FDDB20527B39B13004210C1 /* NemCookBook WatchKit App */,
+				3FDDB21327B39B14004210C1 /* NemCookBook WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FDDB20027B39B12004210C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDDB20427B39B13004210C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDDB20F27B39B14004210C1 /* Assets.xcassets in Resources */,
+				3FDDB20D27B39B13004210C1 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDDB21227B39B14004210C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDDB22027B39B15004210C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FDDB21027B39B14004210C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDDB21C27B39B14004210C1 /* ExtensionDelegate.swift in Sources */,
+				3FDDB21A27B39B14004210C1 /* InterfaceController.swift in Sources */,
+				3FDDB21E27B39B14004210C1 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FDDB20927B39B13004210C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FDDB20527B39B13004210C1 /* NemCookBook WatchKit App */;
+			targetProxy = 3FDDB20827B39B13004210C1 /* PBXContainerItemProxy */;
+		};
+		3FDDB21727B39B14004210C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FDDB21327B39B14004210C1 /* NemCookBook WatchKit Extension */;
+			targetProxy = 3FDDB21627B39B14004210C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FDDB20B27B39B13004210C1 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FDDB20C27B39B13004210C1 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FDDB22227B39B15004210C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FDDB22327B39B15004210C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FDDB22527B39B15004210C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NemCookBook WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "NemCookBook WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.NemCookBook.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		3FDDB22627B39B15004210C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NemCookBook WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "NemCookBook WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.NemCookBook.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		3FDDB22927B39B15004210C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = NemCookBook_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "NemCookBook WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.NemCookBook.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		3FDDB22A27B39B15004210C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = NemCookBook_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "NemCookBook WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.NemCookBook.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		3FDDB22D27B39B15004210C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.NemCookBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3FDDB22E27B39B15004210C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.NemCookBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FDDB1FF27B39B12004210C1 /* Build configuration list for PBXProject "NemCookBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDDB22227B39B15004210C1 /* Debug */,
+				3FDDB22327B39B15004210C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FDDB22427B39B15004210C1 /* Build configuration list for PBXNativeTarget "NemCookBook WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDDB22527B39B15004210C1 /* Debug */,
+				3FDDB22627B39B15004210C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FDDB22827B39B15004210C1 /* Build configuration list for PBXNativeTarget "NemCookBook WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDDB22927B39B15004210C1 /* Debug */,
+				3FDDB22A27B39B15004210C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FDDB22C27B39B15004210C1 /* Build configuration list for PBXNativeTarget "NemCookBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDDB22D27B39B15004210C1 /* Debug */,
+				3FDDB22E27B39B15004210C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FDDB1FC27B39B12004210C1 /* Project object */;
+}
