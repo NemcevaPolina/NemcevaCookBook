@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0ABB4727CCF315003A6D00 /* Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0ABB4627CCF315003A6D00 /* Recipes.swift */; };
+		3F0ABB4A27CCF874003A6D00 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDB20B27B39B13004210C1 /* Interface.storyboard */; };
 		3FDDB20727B39B13004210C1 /* NemCookBook WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3FDDB20627B39B13004210C1 /* NemCookBook WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		3FDDB20D27B39B13004210C1 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDB20B27B39B13004210C1 /* Interface.storyboard */; };
 		3FDDB20F27B39B14004210C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDB20E27B39B14004210C1 /* Assets.xcassets */; };
 		3FDDB21527B39B14004210C1 /* NemCookBook WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3FDDB21427B39B14004210C1 /* NemCookBook WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		3FDDB21A27B39B14004210C1 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDB21927B39B14004210C1 /* InterfaceController.swift */; };
+		3FDDB21A27B39B14004210C1 /* TableRecipesIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDB21927B39B14004210C1 /* TableRecipesIC.swift */; };
 		3FDDB21C27B39B14004210C1 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDB21B27B39B14004210C1 /* ExtensionDelegate.swift */; };
 		3FDDB21E27B39B14004210C1 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDB21D27B39B14004210C1 /* ComplicationController.swift */; };
 		3FDDB22027B39B15004210C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDB21F27B39B15004210C1 /* Assets.xcassets */; };
+		3FDDB23027B3A23F004210C1 /* RowTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDB22F27B3A23F004210C1 /* RowTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,16 +62,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3F0ABB4627CCF315003A6D00 /* Recipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipes.swift; sourceTree = "<group>"; };
+		3F0ABB4B27CCFDFD003A6D00 /* DetailRecipeIC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRecipeIC.swift; sourceTree = "<group>"; };
 		3FDDB20227B39B12004210C1 /* NemCookBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NemCookBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FDDB20627B39B13004210C1 /* NemCookBook WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NemCookBook WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FDDB20C27B39B13004210C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		3FDDB20E27B39B14004210C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FDDB21427B39B14004210C1 /* NemCookBook WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "NemCookBook WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FDDB21927B39B14004210C1 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		3FDDB21927B39B14004210C1 /* TableRecipesIC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableRecipesIC.swift; sourceTree = "<group>"; };
 		3FDDB21B27B39B14004210C1 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		3FDDB21D27B39B14004210C1 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		3FDDB21F27B39B15004210C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FDDB22127B39B15004210C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FDDB22F27B3A23F004210C1 /* RowTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				3FDDB20B27B39B13004210C1 /* Interface.storyboard */,
+				3F0ABB4B27CCFDFD003A6D00 /* DetailRecipeIC.swift */,
 				3FDDB20E27B39B14004210C1 /* Assets.xcassets */,
 			);
 			path = "NemCookBook WatchKit App";
@@ -114,7 +120,9 @@
 		3FDDB21827B39B14004210C1 /* NemCookBook WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				3FDDB21927B39B14004210C1 /* InterfaceController.swift */,
+				3FDDB21927B39B14004210C1 /* TableRecipesIC.swift */,
+				3FDDB22F27B3A23F004210C1 /* RowTable.swift */,
+				3F0ABB4627CCF315003A6D00 /* Recipes.swift */,
 				3FDDB21B27B39B14004210C1 /* ExtensionDelegate.swift */,
 				3FDDB21D27B39B14004210C1 /* ComplicationController.swift */,
 				3FDDB21F27B39B15004210C1 /* Assets.xcassets */,
@@ -230,8 +238,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0ABB4A27CCF874003A6D00 /* Interface.storyboard in Resources */,
 				3FDDB20F27B39B14004210C1 /* Assets.xcassets in Resources */,
-				3FDDB20D27B39B13004210C1 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +258,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0ABB4727CCF315003A6D00 /* Recipes.swift in Sources */,
 				3FDDB21C27B39B14004210C1 /* ExtensionDelegate.swift in Sources */,
-				3FDDB21A27B39B14004210C1 /* InterfaceController.swift in Sources */,
+				3FDDB23027B3A23F004210C1 /* RowTable.swift in Sources */,
+				3FDDB21A27B39B14004210C1 /* TableRecipesIC.swift in Sources */,
 				3FDDB21E27B39B14004210C1 /* ComplicationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
